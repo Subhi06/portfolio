@@ -5,7 +5,6 @@ export const navItems = [
   { label: "Projects", href: "/projects" },
   { label: "About Us", href: "/about" },
   { label: "Careers", href: "/careers" },
-  { label: "Blogs", href: "/blogs" },
   { label: "Contact Us", href: "/contact" }
 ];
 
@@ -100,12 +99,6 @@ export const testimonials = [
 ];
 
 export const clientLogos = ["Ather", "PayNex", "HealthHub", "Gridon", "NovaRetail", "Axon", "BlueOrbit", "PixelMint"];
-
-export const blogPosts = [
-  { title: "Design Systems for Fast Product Teams", excerpt: "How to build reusable design foundations for scale.", date: "May 2026" },
-  { title: "Reducing Delivery Friction in Agile Teams", excerpt: "A practical approach to cross-functional product delivery.", date: "Apr 2026" },
-  { title: "What Makes a Premium Portfolio Experience", excerpt: "Visual hierarchy, rhythm, and interaction patterns that convert.", date: "Mar 2026" }
-];
 
 export const careerOpenings = [
   { role: "Senior Frontend Developer", location: "Coimbatore / Hybrid", type: "Full Time" },
