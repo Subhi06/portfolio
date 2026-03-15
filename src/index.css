@@ -1,0 +1,33 @@
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-base text-text font-body antialiased;
+  background-image:
+    radial-gradient(circle at 85% 10%, rgba(255, 255, 255, 0.1), transparent 30%),
+    radial-gradient(circle at 10% 20%, rgba(255, 255, 255, 0.07), transparent 35%),
+    linear-gradient(180deg, #050505 0%, #090909 100%);
+}
+
+.section-shell {
+  @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+}
+
+.section-title {
+  @apply font-heading text-3xl sm:text-4xl md:text-5xl;
+}
+
+.section-subtitle {
+  @apply mt-4 max-w-2xl text-sm sm:text-base text-zinc-300;
+}
+
+.card-glass {
+  @apply rounded-2xl border border-white/10 bg-panel/80 backdrop-blur-sm shadow-glow;
+}
