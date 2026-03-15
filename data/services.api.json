@@ -1,0 +1,32 @@
+[
+  {
+    "title": "Experience Design",
+    "description": "Crafting intuitive journeys and interaction systems that elevate product usability.",
+    "icon": "ED"
+  },
+  {
+    "title": "Frontend Development",
+    "description": "High-performance interfaces using modern React architectures and scalable design systems.",
+    "icon": "FE"
+  },
+  {
+    "title": "Mobile Development",
+    "description": "Native and cross-platform mobile apps designed for speed, retention, and reliability.",
+    "icon": "MB"
+  },
+  {
+    "title": "Backend Development",
+    "description": "Secure API-driven platforms, microservices, and cloud-native systems built to scale.",
+    "icon": "BE"
+  },
+  {
+    "title": "QA Testing",
+    "description": "Automation-first testing that safeguards product quality across releases and platforms.",
+    "icon": "QA"
+  },
+  {
+    "title": "Digital Marketing",
+    "description": "Performance-focused growth strategy integrating content, search, and conversion design.",
+    "icon": "DM"
+  }
+]

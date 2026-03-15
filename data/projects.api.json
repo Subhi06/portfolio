@@ -1,0 +1,22 @@
+[
+  {
+    "industry": "Automotive",
+    "title": "Project Alpha",
+    "description": "High-conversion digital platform with performance-led UX architecture."
+  },
+  {
+    "industry": "Healthcare",
+    "title": "Project Beacon",
+    "description": "Unified patient journey experience for appointment and care operations."
+  },
+  {
+    "industry": "FinTech",
+    "title": "Project Orbit",
+    "description": "Modern operations suite built for workflow automation and team velocity."
+  },
+  {
+    "industry": "Web3",
+    "title": "Project Nova",
+    "description": "Scalable experience layer connecting product storytelling with conversion."
+  }
+]

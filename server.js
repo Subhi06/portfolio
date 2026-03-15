@@ -1,15 +1,14 @@
 const express = require("express");
 const cors = require("cors");
-const path = require("path");
 const contactRoutes = require("./routes/contact");
+const contentRoutes = require("./routes/content");
 
 const app = express();
 const PORT = process.env.PORT || 5000;
-const distPath = path.join(__dirname, "dist");
 
 app.use(
   cors({
-    origin: process.env.CLIENT_URL || "http://localhost:5173"
+    origin: process.env.CLIENT_URL || "http://localhost:3000"
   })
 );
 app.use(express.json());
@@ -19,11 +18,10 @@ app.get("/api/health", (req, res) => {
 });
 
 app.use("/api/contact", contactRoutes);
+app.use("/api", contentRoutes);
 
-app.use(express.static(distPath));
-
-app.get("*", (req, res) => {
-  res.sendFile(path.join(distPath, "index.html"));
+app.get("/api", (req, res) => {
+  res.status(200).json({ message: "Agency API is running" });
 });
 
 const server = app.listen(PORT, () => {
